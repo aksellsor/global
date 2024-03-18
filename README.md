@@ -28,4 +28,4 @@
   </svg>`
 
 * or img tag:<br/>
-`<img src="https://github.com/aksellsor/styles/raw/main/favicon.svg" width="61px" height="28px"/>`
+`<img src="https://aksellsor.github.io/global/favicon.svg" width="61px" height="28px"/>`
