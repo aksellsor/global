@@ -1,3 +1,5 @@
+[BOILERPLATE](https://aksellsor.github.io/styles/)
+
 ## Global css
 `<link rel="stylesheet" href="https://aksellsor.github.io/styles/global.css">`
 
