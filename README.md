@@ -1,7 +1,7 @@
 [BOILERPLATE](https://aksellsor.github.io/styles/)
 
 ## Global css
-`<link rel="stylesheet" href="https://aksellsor.github.io/styles/global.css">`
+`<link rel="stylesheet" href="https://aksellsor.github.io/global/global.css">`
 
 ## Favicon
 ![image](./favicon.svg)
