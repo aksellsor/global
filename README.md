@@ -1,4 +1,4 @@
-[View boilerplate demo](https://aksellsor.github.io/global/)
+[View boilerplate demo](https://aksellsor.github.io/boilerplate/)
 
 ## Global css
 `<link rel="stylesheet" href="https://aksellsor.github.io/global/global.css">`
