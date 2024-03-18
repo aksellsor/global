@@ -1,5 +1,5 @@
 ## Global css
-<link rel="stylesheet" href="https://aksellsor.github.io/styles/global.css">
+`<link rel="stylesheet" href="https://aksellsor.github.io/styles/global.css">`
 
 ## Favicon
 ![image](./favicon.svg)
