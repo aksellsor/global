@@ -4,7 +4,7 @@
 `<link rel="stylesheet" href="https://aksellsor.github.io/global/global.css">`
 
 ## Favicon
-![image](./favicon.svg)
+![image](./favicons/favicon-32x32.png)
 `
    <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180"
@@ -19,7 +19,6 @@
 `
 
 ## SVG symbol
-![image](./favicon.svg)
 * As svg:<br/>
   `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="61.703" height="28.047"
     viewBox="0 0 61.703 28.047" style="margin-bottom:2rem;">
