@@ -1,7 +1,8 @@
+## Global css
+<link rel="stylesheet" href="https://aksellsor.github.io/styles/global.css">
 
+## Favicon
 ![image](./favicon.svg)
-
-# Favicon
 * As BASE64:<br/>
 `  <link  href="data:image/svg+xml;base64,CiAgICAgIDxzdmcgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYxLjcwMyIgaGVpZ2h0PSIyOC4wNDciCiAgICAgICAgdmlld0JveD0iMCAwIDYxLjcwMyAyOC4wNDciIHN0eWxlPSJtYXJnaW4tYm90dG9tOjJyZW07Ij4KICAgICAgICA8ZyBpZD0iR3JvdXBfODgxNTkiIGRhdGEtbmFtZT0iR3JvdXAgODgxNTkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02MDguNSAtMjQ2OC41ODcpIj4KICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNjUiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDY1IiB3aWR0aD0iMjguMDQ3IiBoZWlnaHQ9IjI4LjA0NyIKICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjA4LjUgMjQ2OC41ODcpIiBmaWxsPSIjMDBlODZhIj48L3JlY3Q+CiAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzY2IiBkYXRhLW5hbWU9IlJlY3RhbmdsZSA2NiIgd2lkdGg9IjE3Ljk1IiBoZWlnaHQ9IjI4LjA0NyIKICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjM5LjkxMyAyNDY4LjU4NykiIGZpbGw9IiMwMGU4NmEiPjwvcmVjdD4KICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNjciIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDY3IiB3aWR0aD0iOC45NzUiIGhlaWdodD0iMjguMDQ3IgogICAgICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2NjEuMjI4IDI0NjguNTg3KSIgZmlsbD0iIzAwZTg2YSI+PC9yZWN0PgogICAgICAgIDwvZz4KICAgICAgPC9zdmc+"
     rel="icon" type="image/x-icon">`
@@ -9,7 +10,8 @@
 * or linked directly:<br/>
 `<link href="https://github.com/aksellsor/styles/raw/main/favicon.svg" rel="icon" type="image/x-icon">`
 
-# SVG symbol
+## SVG symbol
+![image](./favicon.svg)
 * As svg:<br/>
   `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="61.703" height="28.047"
     viewBox="0 0 61.703 28.047" style="margin-bottom:2rem;">
