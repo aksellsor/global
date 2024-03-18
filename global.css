@@ -1,6 +1,4 @@
-@import "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css";
-
-    :root {
+:root {
       --input-text-color: #fff;
       --input-placeholder-color: rgba(255, 255, 255, 0.6);
       --input-bg-color: rgb(43, 43, 43);
