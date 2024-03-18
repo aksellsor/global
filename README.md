@@ -4,7 +4,7 @@
 `<link rel="stylesheet" href="https://aksellsor.github.io/global/global.css">`
 
 ## Favicon
-![image](./favicons/favicon-32x32.png)<br/>
+![image](./symbol.svg)<br/>
 `<!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180"
         href="https://aksellsor.github.io/global/favicons/apple-touch-icon.png" />
@@ -31,4 +31,4 @@
   </svg>`
 
 * or img tag:<br/>
-`<img src="https://aksellsor.github.io/global/favicon.svg" width="61px" height="28px"/>`
+`<img src="https://aksellsor.github.io/global/symbol.svg" width="61px" height="28px"/>`
