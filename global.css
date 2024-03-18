@@ -126,3 +126,42 @@
       --active-color: #00e869;
     }
     
+    .field {
+      appearance: none;
+      color: var(--text-color);
+      border: 0;
+      outline: 2px solid rgba(150, 150, 150, 0.3);
+      background: var(--input-bg-color);
+      padding: .5rem 1rem;
+      line-height: 1;
+      height: 100%;
+    }
+
+    .field:focus {
+      color: var(--active-color);
+      outline-color: var(--active-color);
+      background-color: var(--focus-input-bg-color);
+    }
+
+    .btn {
+      appearance: none;
+      border: none;
+      color: #fff;
+      padding: .5rem 1rem;
+      line-height: 1;
+      border-radius: .5rem;
+      background-color: var(--focus-input-bg-color);
+      outline: 2px solid rgba(150, 150, 150, 0.3);
+    }
+
+    .btn--primary {
+      outline: 2px solid var(--active-color);
+      background: var(--active-color);
+      color: #000;
+    }
+
+    .btn:hover {
+      filter: brightness(80%);
+      cursor: pointer;
+    }
+
