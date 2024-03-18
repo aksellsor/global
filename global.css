@@ -143,6 +143,18 @@
       background-color: var(--focus-input-bg-color);
     }
 
+    .field::placeholder {
+      color: var(--input-placeholder-color);
+    }
+
+    a {
+      color: #fff;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
     .btn {
       appearance: none;
       border: none;
