@@ -1,4 +1,13 @@
 @import "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css";
+
+    :root {
+      --input-text-color: #fff;
+      --input-placeholder-color: rgba(255, 255, 255, 0.6);
+      --input-bg-color: rgb(43, 43, 43);
+      --focus-input-bg-color: #00e8681b;
+      --text-color: #949faa;
+      --active-color: #00e869;
+    }
     html {
       scrollbar-face-color: #646464;
       scrollbar-base-color: #646464;
@@ -23,16 +32,6 @@
         touch-action: pan-down;
       }
     }
-
-    body.noscroll {
-      height: 100vh;
-      width: 100vw;
-      touch-action: none;
-      -webkit-overflow-scrolling: none;
-      overflow: hidden;
-      overscroll-behavior: none;
-    }
-
     html {
       height: 100%;
     }
@@ -41,7 +40,6 @@
       font-family: 'Aeonik', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
         sans-serif;
-
       background-color: #212121;
       background: linear-gradient(57deg, #353334 0%, rgba(0, 0, 0, 1) 88%);
       color: #fff;
@@ -52,6 +50,20 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+    }
+    /* ADD Small padding on mobile */
+    @media (max-width: 800px) {
+      body {
+        padding: 1.25rem;
+      }
+    }
+  body.noscroll {
+      height: 100vh;
+      width: 100vw;
+      touch-action: none;
+      -webkit-overflow-scrolling: none;
+      overflow: hidden;
+      overscroll-behavior: none;
     }
 
     body::before {
@@ -104,26 +116,12 @@
       background-color: #666;
     }
 
-    @media (max-width: 800px) {
-      body {
-        padding: 1.25rem;
-      }
-    }
-
     *,
     *::after,
     *::before {
       box-sizing: border-box;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-    }
-    :root {
-      --input-text-color: #fff;
-      --input-placeholder-color: rgba(255, 255, 255, 0.6);
-      --input-bg-color: rgb(43, 43, 43);
-      --focus-input-bg-color: #00e8681b;
-      --text-color: #949faa;
-      --active-color: #00e869;
     }
     
     .field {
