@@ -10,7 +10,7 @@
     rel="icon" type="image/x-icon">`
 
 * or linked directly:<br/>
-`<link href="https://github.com/aksellsor/styles/raw/main/favicon.svg" rel="icon" type="image/x-icon">`
+`<link href="https://aksellsor.github.io/global/favicon.svg" rel="icon" type="image/x-icon">`
 
 ## SVG symbol
 ![image](./favicon.svg)
