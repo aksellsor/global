@@ -12,16 +12,43 @@
             max-width: 1300px;
             margin: auto;
         }
+        .field-group {
+          font-size: 1rem;
+          display: grid;
+          grid-template-columns: 1fr auto;
+          align-items: center;
+          position: relative;
+          isolation: isolate;
+        }
+    
+    
+        .field-group>* {
+          height: 100%;
+          margin: 0 !important;
+          line-height: 1;
+          padding: .5rem 1.5rem !important;
+        }
+    
+        .field-group>*:first-child {
+          border-radius: 50rem 0 0 50rem;
+        }
+    
+        .field-group>*:last-child {
+          margin-left: -2px;
+          border-radius: 0 50rem 50rem 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-          <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="61.703" height="28.047" viewBox="0 0 61.703 28.047" style="margin-bottom:2rem;"> <g id="Group_88159" data-name="Group 88159" transform="translate(-608.5 -2468.587)"> <rect id="Rectangle_65" data-name="Rectangle 65" width="28.047" height="28.047" transform="translate(608.5 2468.587)" fill="#00e86a"></rect> <rect id="Rectangle_66" data-name="Rectangle 66" width="17.95" height="28.047" transform="translate(639.913 2468.587)" fill="#00e86a"></rect> <rect id="Rectangle_67" data-name="Rectangle 67" width="8.975" height="28.047" transform="translate(661.228 2468.587)" fill="#00e86a"></rect> </g> </svg>
+       <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="61.703" height="28.047" viewBox="0 0 61.703 28.047" style="margin-bottom:2rem;"> <g id="Group_88159" data-name="Group 88159" transform="translate(-608.5 -2468.587)"> <rect id="Rectangle_65" data-name="Rectangle 65" width="28.047" height="28.047" transform="translate(608.5 2468.587)" fill="#00e86a"></rect> <rect id="Rectangle_66" data-name="Rectangle 66" width="17.95" height="28.047" transform="translate(639.913 2468.587)" fill="#00e86a"></rect> <rect id="Rectangle_67" data-name="Rectangle 67" width="8.975" height="28.047" transform="translate(661.228 2468.587)" fill="#00e86a"></rect> </g> </svg>
    
-        <input type="text" class="field" placeholder="Field"/>
-        <button class="btn btn--primary">
-          Button
-        </button>
+       <div class="field-group">
+            <input type="text" class="field" placeholder="Field"/>
+            <button class="btn btn--primary">
+              Button
+            </button>
+       </div>
     </div>
 </body>
 </html>
