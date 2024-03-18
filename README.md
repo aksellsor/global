@@ -5,8 +5,7 @@
 
 ## Favicon
 ![image](./favicons/favicon-32x32.png)
-`
-   <!-- FAVICONS -->
+`<!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180"
         href="https://aksellsor.github.io/global/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32"
@@ -15,9 +14,8 @@
         href="https://aksellsor.github.io/global/favicons" />
     <link rel="manifest" href="https://aksellsor.github.io/global/favicons/site.webmanifest" />
     <link rel="mask-icon" href="https://aksellsor.github.io/global/favicons/safari-pinned-tab.svg"
-        color="#00c458" />
-`
-
+        color="#00c458" />`
+        
 ## SVG symbol
 * As svg:<br/>
   `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="61.703" height="28.047"
